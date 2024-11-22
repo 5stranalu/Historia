@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Faculty+Glyphic&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+    <title>Em busca da princesa perdida</title>
+    
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0"> 
+            <img src="cenario-passo0.webp" alt="">
+            <p>
+                Em um dia normal, lendo o jornal da vila onde mora, você descobre que a princesa do reino está desaparecida, e que a família real está dando uma grande recompensa para quem se prontificar a encontrá-la e trazê-la de volta em segurança para o castelo. Escolha se irá arriscar e procurá-la!
+            </p>
+            <button class="btn-proximo" data-proximo="1"> Reino dos Cisnes </button>
+            <button class="btn-proximo" data-proximo="2"> Reino dos Lírios </button>
+        </div>
+        <div class="passo" id="passo-1"> 
+            <p>
+                Você começa a sua procura no Reino dos Cisnes, o reino em que você mora, procurando pessoas e perguntando se viram vestígios ou se tinham pistas sobre o paradeiro da princesa. Decide então entrar na floresta onde está o Lago dos Cisnes, para ver se encontra algo que o ajude na investigação.
+            </p>
+            <button class="btn-proximo" data-proximo="3"> Procurar uma pista na floresta </button>
+            <button class="btn-proximo" data-proximo="4"> Desistir e voltar para casa </button>
+        </div>
+        <div class="passo" id="passo-2"> 
+        <p> No Reino dos Lírios, você explora a grande cachoeira e o enorme jardim encantado de lírios em busca de um esconderijo que a princesa possa estar. Você encontra alguns vestígios suspeitos, e uma torre abandonada.</p>
+        <button class="btn-proximo" data-proximo="5"> Investigar a torre </button>
+            <button class="btn-proximo" data-proximo="6"> Procurar por cavernas e vestígios na cachoeira </button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p> No final da vila do Reino do Cisnes, você encontra uma pequena e suspeita casa, com aparência abandonada. Decide então entrar e ver o que pode encontrar? </p>
+            <button class="btn-proximo" data-proximo="7"> Entrar na casa</button>
+            <button class="btn-proximo" data-proximo="8"> Pedir para que outro faça o trabalho </button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="cenario-passo4-voltar-casa.webp" alt="imagem voltando para casa e desistindo">
+            <p> Você perde a coragem e decide desistir, pede então para que outro faça o trabalho e espera atualizações sobre a princesa do Reino. </p>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="cenario-passo11-cidade-perdida.png" alt="voltando com a princesa">
+            <p> Ao entrar e investigar a torre, encontra a princesa desmaiada no chão, completamente abatida. Por estar muito longe do centro do reino, decide não pedir ajuda e resgatá-la sozinho(a)</P>
+                <button class="btn-proximo" data-proximo="9"> Levá-la de volta para o Reino.</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="cenario-passo4-voltar-casa.webp" alt="imagem voltando para casa e desistindo">
+            <p>
+                Depois de passar horas explorando, começa a escurecer, então você decide voltar para a casa e tentar novamente no dia seguinte.
+            </p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+
+
+
+
+</body>
+</html>
